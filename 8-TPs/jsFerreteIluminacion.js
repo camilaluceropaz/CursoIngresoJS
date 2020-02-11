@@ -24,16 +24,17 @@ if(cantidad>= 6){
 }
  else if (cantidad == 5){
      desuento= 0.3;
-} else if(cantidad == 4){
+} else if(cantidad == 4 && marca == "ArgentinaLuz"){
     descuento= 0.25;
-} else if (cantidad == 3){
+} else if (cantidad == 4 && marca == "")
+ else if (cantidad == 3){
     descuento= 0.15;
 
-} else if(cantidad == 120){
-    despuesto = + 0.1;
-}
- 
-alert("IIBB Usted pago ")
+} 
+descuento = parseInt("precioDescuento");
+descuento= 120 + 0.1;
+alert("Usted pago " + descuento + " de IIBB");
+
 
     }
 
