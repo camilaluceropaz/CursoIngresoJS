@@ -8,7 +8,14 @@ function mostrar()
 
 	while(respuesta!='no')
 	{
-		
+		var interacciones
+		interacciones = prompt("cuantos numeros desea ingresar?");
+		interacciones = parseInt(interacciones);
+
+	while(interacciones){
+		interacciones = prompt("cuantos numeros desea ingresar?");
+		interacciones = parseInt(interacciones);
+	}
 	
 	}
 

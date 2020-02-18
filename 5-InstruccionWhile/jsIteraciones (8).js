@@ -6,6 +6,27 @@ function mostrar()
 	var negativo=1;
 	
 	var respuesta='si';
+	var interacciones 
+
+	interacciones = prompt("Cuantos numeros quiere ingresar?");
+	interacciones = parseInt(interacciones);
+	
+	while(isNaN(interacciones)){
+		interacciones = prompt("Error! Ingese un numero");
+		interacciones = parseInt(interacciones);
+	}
+
+	while(contador - interacciones){
+		contador++;
+
+		var numero = prompt("ingrese un numero");
+		numero = parseInt(numero);
+
+    
+	}
+	acumulador += numero;
+
+	
 
 
 document.getElementById('suma').value=positivo;
