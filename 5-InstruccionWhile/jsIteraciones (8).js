@@ -26,7 +26,12 @@ function mostrar()
 	}
 	acumulador += numero;
 
-	
+//	do{
+//	interacciones = prompt("Cuantos numeros quiere ingresar?");
+//	interacciones = parseInt(interacciones);
+//	} while(isNaN(interacciones));{
+
+//	}
 
 
 document.getElementById('suma').value=positivo;

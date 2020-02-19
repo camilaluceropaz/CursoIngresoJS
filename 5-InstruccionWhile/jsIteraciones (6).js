@@ -19,6 +19,13 @@ function mostrar()
 		acumulador += numero;
 	}
 
+//do{
+//	numero = prompt("iIngrese un numero");
+	
+//		numero = parseInt(numero);
+//} while(isNaN(numero));{
+
+//}
 
 
 

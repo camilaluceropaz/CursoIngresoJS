@@ -23,9 +23,11 @@ function mostrar()
 	}
 
 	
-    }
-		
-		
+ //do{
+//numero = prompt("ingrese un numero");
+//numero = parseInt(numero);
+ // } while(isNaN(numero));{
+ //  }
 
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/contador;
