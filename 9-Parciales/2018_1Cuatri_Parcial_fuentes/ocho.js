@@ -1,21 +1,24 @@
 function mostrar()
 {
   var contador 
- var numero = prompt("ingrese un numero");
- var sexo = prompt("ingrese m o f");
+ var numero = prompt("ingrese un numeo del 0 al 10");
+ var sexo 
  
- while(contador <5){
-     contador ++;
-
+ 
+ while(numero <0 ||numero >10 || isNaN(numero))
+ {
+     numero = prompt("ingrese un numero entre 0 y el 10");
+ 
      numero = parseInt(numero);
-     while(isNaN(numero)){
-
-     }
+ 
  }
+ 
   
  while(sexo != "f" || sexo != "m"){
 
   }
+  alert(contador + sexo);
+
 
  
 }
