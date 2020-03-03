@@ -1,0 +1,16 @@
+
+ var edad;
+ var sexo;
+ var paisaje;
+ var contador
+
+while(contador =0){
+   
+ conatador ++;
+
+ edad = prompt("ingrese su edad");
+
+ var sexo = prompt("ingrese f o m");
+
+ var paisaje = prompt ("ingrese urbano, nacional o internacional");
+}
